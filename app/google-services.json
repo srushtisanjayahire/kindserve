@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1058061185374",
+    "project_id": "kindserve",
+    "storage_bucket": "kindserve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058061185374:android:389a944b46fffc4b1f9fcf",
+        "android_client_info": {
+          "package_name": "com.workylifetwentyone.tyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058061185374-b5o6ee2kang3f1v33fu37chpp43q2v0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRZp7x1xoQgBPIbgvB47G2QRi_CAaiZeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058061185374-b5o6ee2kang3f1v33fu37chpp43q2v0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

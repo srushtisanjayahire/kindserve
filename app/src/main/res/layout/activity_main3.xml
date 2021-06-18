@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tap to Place the Order"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Services that we Provide"
+            android:textColor="#FFFCFC"
+            android:textSize="20sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:gravity="center_horizontal"
+            android:background="#000000"
+            />
+
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="5dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/carrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:src="@drawable/ic_baseline_directions_car_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rent Car"
+        android:padding="10dp"
+        android:textColor="#000000"
+        />
+    <ImageButton
+        android:id="@+id/painter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:src="@drawable/ic_baseline_format_paint_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Painting"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+    <ImageButton
+        android:id="@+id/cleaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:src="@drawable/ic_baseline_cleaning_services_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cleaning"
+        android:padding="10dp"
+        android:textColor="#000000"/>
+
+</LinearLayout>
+
+    /////
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/beauty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_beauty" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beauty "
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"/>
+        <ImageButton
+            android:id="@+id/renovation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_renovation" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Renovations"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"/>
+        <ImageButton
+            android:id="@+id/medicalservice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_medical_services_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medical Service"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/massage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_mass" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Massage"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"/>
+        <ImageButton
+            android:id="@+id/pestcontrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_pest_control_rodent_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pest Control"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <ImageButton
+            android:id="@+id/grocerry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_local_grocery_store_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grocery"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/repairs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_repairs" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repairs"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <ImageButton
+            android:id="@+id/makeups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_sentiment_very_satisfied_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makeups"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <ImageButton
+            android:id="@+id/homedelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:src="@drawable/ic_baseline_delivery_dining_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Delivery"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rate Us"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:numStars="5"
+        android:stepSize="0.5"/>
+        <Button
+            android:id="@+id/ratingsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="150dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            />
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:scrollbarAlwaysDrawHorizontalTrack="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/first" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/second" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/third" />
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/fourth" />
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/fifth" />
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/sixth" />
+    </LinearLayout>
+</HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Join Our Family"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="@font/abhaya_libre_medium"
+        />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <Button
+                android:id="@+id/instapage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instagram"
+                android:layout_marginLeft="5dp"/>
+            <Button
+                android:id="@+id/websitepage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visit Our Website"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <Button
+                android:id="@+id/telegrampage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telegram"
+                android:layout_marginLeft="5dp"/>
+                <Button
+                    android:id="@+id/facebookpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Happy Customers"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:scrollbarAlwaysDrawHorizontalTrack="false">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="280dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="0dp"
+                    app:srcCompat="@drawable/hc1" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="280dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@drawable/hc2" />
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="280dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@drawable/hc3" />
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="280dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    app:srcCompat="@drawable/hc4" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER FOR MORE DISCOUNTS"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:onClick="registercustomer"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        /////////////////////
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Our Vision is to serve you at our best"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            />
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Your Complain"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:onClick="Complain"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="By WORKYLIFE"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:layout_marginLeft="150dp"
+            />
+    </LinearLayout>
+
+</ScrollView>
